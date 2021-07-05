@@ -19,9 +19,8 @@ class BooksController < ApplicationController
     redirect_to book_path(book.id)
 
     else
-    render :index
-    # @books=Book.all
-    # @book=Book.new
+      @books=Book.all
+      render :index
     end
 
   end
