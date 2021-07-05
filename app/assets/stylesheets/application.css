@@ -26,3 +26,36 @@ body{
   /*line-height: 18px;*/
   font-size:13px;
 }
+
+h1,h2{
+  margin:20px 0;
+}
+
+.submit-botton{
+  margin:auto;
+}
+
+.text_field_title,
+.text_area_body{
+  margin-bottom:10px;
+}
+
+
+/*テーブル内の微調整*/
+th{
+  padding-bottom:10px;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.link_to{
+  color: #000;
+}
+
+.link_to:visited{
+  color: #666;
+}
