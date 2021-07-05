@@ -35,12 +35,12 @@
 <%= form_with model:@book,local:true do |f| %>
 
 <div class="text_field_title">
-  <h4>Title</h4>
+  <%= f.label:title,"Title" %>
   <%= f.text_field :title %>
 </div>
 
 <div class="text_area_body">
-  <h4>Body</h4>
+  <%= f.label:body,"Body" %>
   <%= f.text_area :body %>
 </div>
 
