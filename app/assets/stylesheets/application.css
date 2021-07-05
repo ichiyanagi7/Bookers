@@ -36,7 +36,8 @@ h1,h2{
 }
 
 .text_field_title,
-.text_area_body{
+.text_area_body,
+.botton{
   margin-bottom:10px;
 }
 
@@ -52,10 +53,17 @@ td{
   padding-right: 5px;
 }
 
+
+/*リンクボタンの色に関するCSS*/
 .link_to{
   color: #000;
 }
 
 .link_to:visited{
   color: #666;
+}
+
+/*edit画面のupdateボタン*/
+.update-botton{
+  padding:1px 6px;
 }

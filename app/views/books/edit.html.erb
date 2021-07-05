@@ -12,9 +12,12 @@
   <%= f.text_area :body %>
 </div>
 
-<%= f.submit "Update Book" %>
+<div class="botton">
+<%= f.submit "Update Book",class:"update-botton" %>
+</div>
+
 <% end %>
 
-<%= link_to "Show",book_path(@book[:id]) %>
+<%= link_to "Show",book_path(@book[:id]),class:"link_to" %>
 <%= " | " %>
-<%= link_to "Back",books_path %>
+<%= link_to "Back",books_path,class:"link_to" %>
