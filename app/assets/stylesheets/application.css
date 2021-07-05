@@ -67,3 +67,25 @@ td{
 .update-botton{
   padding:1px 6px;
 }
+
+/*エラーメッセージ*/
+.alert-danger{
+  margin-bottom:20px;
+  width:450px;
+  border:2px solid red;
+  background-color: #f0f0f0;
+}
+
+ .alert ul{
+  list-style-type: square;
+  margin:33px;
+  line-height: 18px;
+}
+
+.alert h2{
+  background-color: #c00;
+  font-size:12px;
+  color:white;
+  padding:5px 5px 5px 15px;
+  margin-top:0;
+}
