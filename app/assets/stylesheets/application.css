@@ -13,11 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
+
+/*フラッシュメッセージ*/
+.flash{
+  margin:33px;
+  color:green;
+}
+
 
 body{
   color:#333;
@@ -110,3 +118,5 @@ td{
   background-color: red;
   padding:2px;
 }
+
+
