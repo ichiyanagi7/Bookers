@@ -47,5 +47,6 @@ class BooksController < ApplicationController
   private
   def book_params
     params.require(:book).permit(:title,:body)
+    # paramsの中のbookの中のtitleとbody
   end
 end
